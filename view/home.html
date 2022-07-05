@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"  content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../public/css/style.css">
     <title>MercadoLibre</title>
     <!-- fuente -->
@@ -15,9 +15,11 @@
 </head>
 <body>
     <!-- HEADER -->
-    
+
     <header>
-        <img height="200px" width="200px" src="../public/img/logo-mercado-liebre.svg">
+        <div class="logo">
+            <img height="200px" width="200px" src="../public/img/logo-mercado-liebre.svg">
+        </div>
         <!-- barra de busqueda -->
             <form method="get" action="#">
                 <input type="search" name="q" placeholder="buscar productos">
@@ -66,17 +68,20 @@
         <section> <!-- ultima visita-->
             <h2>Basado en tu ultima visita</h2>
             <article> <!--cafetera-->
-                <div>
+                <div class="img">
                     <img src="../public/img/img-cafetera-moulinex.jpg" width="200px" height="200px">
                 </div>
-
-                <p class="precios">$6.770</p>
-                <p>40% OFF</p>
-                <p><strong>cafetera moulinex</strong></p>
+                <div class="descrip">
+                        <i class="fa-solid fa-motorcycle"></i>
+                    <p class="precios">$6.770</p>
+                    <p class="descuento">40% OFF</p>
+                    <br>
+                    <p><strong>Cafetera Moulinex</strong></p>
+                </div>
               </article>
 
             <article> <!--macbook-->
-                <div>
+                <div class="img">
                     <img src="../public/img/img-macbook-pro-2019.jpg" width="200px" height="200px">
                 </div>
 
@@ -86,7 +91,7 @@
             </article>
 
             <article> <!--samsung-->
-                <div>
+                <div class="img">
                     <img src="../public/img/img-samsung-galaxy-s10.jpg" width="200px" height="200px">
                 </div>
 
@@ -96,7 +101,7 @@
             </article>
 
             <article> <!--smarttv-->
-                <div>
+                <div class="img">
                     <img src="../public/img/img-tv-samsung-smart.jpg" width="200px" height="200px">
                 </div>
 
@@ -110,7 +115,7 @@
         <section><!--seccion de oferta-->
             <h2>Sección de ofertas</h2>
             <article> <!--cafetera-->
-                <div>
+                <div class="img">
                     <img src="../public/img/img-cafetera-moulinex.jpg" width="200px" height="200px">
                 </div>
 
@@ -120,7 +125,7 @@
               </article>
 
             <article> <!--macbook-->
-                <div>
+                <div class="img">
                     <img src="../public/img/img-macbook-pro-2019.jpg" width="200px" height="200px">
                 </div>
 
@@ -130,7 +135,7 @@
             </article>
 
             <article> <!--samsung-->
-                <div>
+                <div class="img">
                     <img src="../public/img/img-samsung-galaxy-s10.jpg" width="200px" height="200px">
                 </div>
 
@@ -140,7 +145,7 @@
             </article>
 
             <article> <!--smarttv-->
-                <div>
+                <div class="img">
                     <img src="../public/img/img-tv-samsung-smart.jpg" width="200px" height="200px">
                 </div>
 
